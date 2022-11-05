@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+}
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--Very-pale-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+}
+
+.header{
+    height: 80px;
+    background-color: var(--Soft-red);
+    border-radius: 1rem; 
+    margin-bottom: 1rem;
+    color: white;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    height : 350px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    padding-top : 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.chart{
+    height: 200px;
+    display: flex;
+    align-items: end;
+    color: var(--Medium-brown);
+    justify-content: space-around;
+}
+.barre{
+    width: 40px;
+    height: 70px;
+    background-color: var(--Soft-red);
+    border-radius: 0.3rem;
+}
+
+.mon{
+    height: 60px;
+}
+
+.tue{
+    height: 100px;
+}
+
+.wed{
+    height: 130px;
+    background-color: var(--Cyan);
+}
+.thu{
+    height: 90px;
+}
+
+.fri{
+    height: 70px;
+
+}
+
+.sat{
+    height: 120px;
+}
+
+.sat{
+    height: 80px;
+}
+
+.sep{
+    border-top: 1px solid var(--Medium-brown);
+    margin-top: 2rem;
+    opacity: 0.5;
+}
+
+
+
